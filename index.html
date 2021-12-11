@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>サンプル用登録サイト</title>
+</head>
+<body>
+	<h1>サンプル用 登録サイト</h1>
+	<form action="#" method="post">
+        <p>URL：<br>
+        <input type="text" name="name" id="name"></p>
+        <p>タイトル：<br>
+        <input type="text" name="title" id="title"></p>
+        <p>価格：<br>
+        <input type="int" name="tprice" id="price"></p>
+        <p>Item Code：<br>
+        <input type="int" name="code" id="code"></p>
+        <!--ボタンのコード-->
+        <p id="btn" onclick="clickAlert()"><input type="button" value="登録"></p>
+
+        <!--以下にJavascriptpのコード記載-->
+        <script>
+            function clickAlert() {
+                alert("登録完了！");
+            }
+        </script>
+</body>
+</html>
